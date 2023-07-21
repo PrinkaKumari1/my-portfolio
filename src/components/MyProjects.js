@@ -35,7 +35,7 @@ export default function MyProjects() {
         projectDescription={"The application you're currently viewing serves as my portfolio web app project, designed to present and highlight my work in design and development. It has been built using React.js and Material UI, showcasing my skills and projects in an engaging manner."}
         technologiesUsed={["React", "Material UI"]}
         status={"Complete"}
-        projectDemo={'https://prinkakumari1.github.io/my-portfolio/'}
+        projectDemo={'https://my-portfolio-gxmx.vercel.app/'}
         projectImg={`${process.env.PUBLIC_URL}/images/portfolio.PNG`}
 
       />
