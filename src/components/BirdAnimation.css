@@ -1,0 +1,46 @@
+.bird-animation-container {
+    position: relative;
+    height: 100px;
+    overflow: visible;
+  }
+  
+  .bird-image {
+    width: 35px;
+    height: 35px;
+    position: absolute;
+    top: 90%;
+    left: 4%;
+    transform: translate(-50%, -50%);
+    transition: transform 2s linear;
+    animation: birdAnimation 4s infinite;
+  }
+  
+  .bird-animation-container:hover .bird-image {
+    top: 30%;
+    left: 10%;
+    animation: rotateAnimation 2s linear infinite;
+  }
+  
+  @keyframes birdAnimation {
+    0% {
+      transform: translate(-50%, -50%);
+    }
+    50% {
+      transform: translate(50%, -70%); /* Update the translate values */
+    }
+    100% {
+      transform: translate(-50%, -50%);
+    }
+  }
+  
+  @keyframes rotateAnimation {
+    0% {
+      transform: translate(-50%, -50%) rotate(0deg);
+    }
+    100% {
+      transform: translate(-50%, -50%) rotate(360deg);
+    }
+  }
+
+  
+  

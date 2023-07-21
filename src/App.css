@@ -1,0 +1,25 @@
+.App {
+  text-align: center;
+}
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+.scrollable-section {
+  padding-top: 64px;
+}
+.fabContainer {
+  position: fixed;
+  bottom: 20px; /* Adjust the bottom padding as needed */
+  right: 20px; /* Adjust the right padding as needed */
+}
+
+
+
+
